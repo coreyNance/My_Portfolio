@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+   font-family: Arial;
+   color: rgb(255, 255, 255);
+   background-color: #000000;
+  }
+  
+  
+  header {
+  
+    padding: 8%;
+    background-size: 100% 100%;
+  
+  }
+  
+  header h1 {
+    
+    text-align: center;
+    font-family: cursive;
+    font-size: 5rem;
+    line-height: 2;
+  }
+  
+  nav {
+    padding-bottom: 0.5%;
+    border-bottom: 5px solid rgb(31, 30, 30);
+    align-items: center;
+    text-align: right;
+  }
+  
+  .myFace{
+    align-items: left;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  footer,
+  section {
+    display: flex;
+    margin: 0;
+  }
+  
+  p {
+    padding: 5%
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+  }
+  
+  a:hover {
+    color: rgb(208, 208, 240)
+  }
+  
+  
+  
+  li {
+    margin: 2%;
+    display: inline;
+    text-decoration: underline;
+  }
+  
+   
+  
+  
+  .left {
+    
+    font-size: 1.5rem;
+    flex: 30%;
+    
+  }
+  
+  .left h1 {
+    text-align: right;
+    padding-top: 5%;
+    padding-right: 2%;
+  }
+  
+  .right {
+    flex: 70%;
+    border-left: 5px solid rgb(31, 30, 30);
+  }
+  
+  
+  .work {
+  
+    text-align: right;
+    padding-right: 2%;
+    font-size: 2rem;
+  }
+  
+  
+  .container {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .container .sunsetImage {
+    flex: 0 0 calc(35% - 20px);
+    margin: 2%;
+    position: relative;
+  } 
+  
+  .container .bigImage {
+  
+    flex-basis: 40%;
+    /* margin: %; */
+    margin-top: 2.5%;
+  }
+  
+  .container .sunsetImage img {
+    display: block;
+    width: 100%;
+    border: 5px solid rgb(31, 30, 30);
+  }
+  
+  figure img:hover {
+    
+   filter: brightness(110%);
+  }
+  
+  
+  .contactLinks {
+    padding-top: 4%;
+    padding-bottom: 2%;
+    font-size: 1.5rem;
+  }
+  
+  .contactMe {
+  
+    text-align: right;
+    padding-right: 2%;
+    font-size: 2rem;
+  
+  }
+  
+  
+  .container .sunsetImage figcaption {
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    background-color: rgb(31, 30, 30);
+    padding: 2%;
+    font-size: 1rem;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+  
+  
+    ul,
+    footer,
+    section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } 
+  
+    .container .sunsetImage figcaption {
+      
+        font-size: .75rem;
+        padding: 2%;
+    }
+  
+    .resLink {
+        font-size: .75rem;
+       
+  
+    }
+  
+  
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .container .sunsetImage figcaption {
+  
+        font-size: .5rem;
+        padding: 2%;
+    }
+  
+    .resLink {
+        font-size: .5rem;
+    }
+    
+    
+  
+  }
+  
+  
+  
