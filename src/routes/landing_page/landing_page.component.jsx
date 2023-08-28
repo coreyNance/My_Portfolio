@@ -1,7 +1,10 @@
-import React, {useState, useEffect, useRef} from 'react';import './landing_page.styles.scss';
+import React, {useState, useEffect, useRef} from 'react';
+import './landing_page.styles.scss';
 import {Outlet, Link} from 'react-router-dom';
+import {Document, Page, pdfjs} from 'react-pdf';
 //import myPic from '../component_Images/myImage.jpg';
 import myPic from '../../Assets/component_Images/myImage.jpg';
+import resume from '../../utils/Resume.pdf'
 import DropdownItem from '../../components/dropdown-item/dropdown-item.component';
 
 
@@ -19,6 +22,8 @@ import DropdownItem from '../../components/dropdown-item/dropdown-item.component
 function LandingPage() {
 
   const [open, setOpen] = useState(false);
+
+  
 
 
   return (
@@ -38,7 +43,7 @@ function LandingPage() {
                       <div className={`dropdown-menu ${open? 'active': 'inactive'}`}>
                         <ul>
                           <li><DropdownItem text = {"JavaScript"} to ={"/project/JavaScript"}/></li>
-                          <li><DropdownItem text = {"C++"} to ={"/project/Test"}/></li>
+                          <li><DropdownItem text = {"C++"} to ={"/project/CPP"}/></li>
                           <li><DropdownItem text = {"Embedded C"}/></li>
                           <li><DropdownItem text = {"React"}/></li>
                           <li><DropdownItem text = {"Java"}/></li>
@@ -46,7 +51,7 @@ function LandingPage() {
                         </ul>
                       </div>
               </li>
-                  <li><a href = "Assets\Coreys Resume 5.pdf" download target= "_blank">Resume</a></li>
+                  <li><a href = "../../Assets/Resume.pdf" download = "Resume.pdf">Resume</a></li>
             </h2>
         </ul>
             

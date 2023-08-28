@@ -5,7 +5,7 @@ function DropdownItem(props) {
 
     return(
          <Link className="dropdownItem" to = {props.to}>
-            <li>{props.text}</li>
+            {props.text}
         </Link>
 
 
