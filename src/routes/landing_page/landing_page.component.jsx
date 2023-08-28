@@ -37,12 +37,12 @@ function LandingPage() {
 
                       <div className={`dropdown-menu ${open? 'active': 'inactive'}`}>
                         <ul>
-                        <DropdownItem text = {"JavaScript"} to ={"/project/JavaScript"}/>
-                          <DropdownItem text = {"C++"} to ={"/project/Test"}/>
-                          <DropdownItem text = {"Embedded C"}/>
-                          <DropdownItem text = {"React"}/>
-                          <DropdownItem text = {"Java"}/>
-                          <DropdownItem text = {"Python"}/>
+                          <li><DropdownItem text = {"JavaScript"} to ={"/project/JavaScript"}/></li>
+                          <li><DropdownItem text = {"C++"} to ={"/project/Test"}/></li>
+                          <li><DropdownItem text = {"Embedded C"}/></li>
+                          <li><DropdownItem text = {"React"}/></li>
+                          <li><DropdownItem text = {"Java"}/></li>
+                          <li><DropdownItem text = {"Python"}/></li>
                         </ul>
                       </div>
               </li>

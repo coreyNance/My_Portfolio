@@ -34,6 +34,7 @@ code {
   //height: 300px;
   padding: 20px;
   margin: 20px;
+  
 }
 
 .myImage-container {
@@ -58,8 +59,9 @@ code {
 
 .pageInfoLinks {
   position: relative;
-  // top: 560px;
-  //border: 1px solid rgb(175, 219, 18);
+  top: 10%;
+  
+  
 
   
       li {
@@ -68,6 +70,11 @@ code {
 
   a {
     text-decoration: none;
+    color: white;
+    background-color: rgb(84, 82, 82);
+    padding:.5% 1% 1% 1%;
+    border-radius: 10%;
+  
 
     
   }
@@ -86,7 +93,6 @@ code {
   position: relative;
   top: 550px;
   left: 37%;
-  // border: 1px solid rgb(175, 219, 18);
 
   
       li {
@@ -95,6 +101,7 @@ code {
 
   a {
     text-decoration: none;
+    color: white;
 
     
   }
@@ -121,12 +128,10 @@ code {
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;;
   width: 50%;
-  //border: 1px solid rgb(58, 219, 18);
   text-align: left;
 
   li {
     display: inline;
-    //padding: 20px;
 
     a {
       text-decoration: none;
@@ -161,60 +166,32 @@ h3 span{
   font-weight: 400;
 }
 
-// .myTitle {
-//   position:absolute;
-//   top: 400px;
-//   left: 325px;
-//   text-align: left;
-//   font-family: cursive;
-//   font-size: 3rem;
-//   // line-height: 10;
-// }
 
-
-// .dropdown-menu{
-//   position: absolute;
-//   //top: 100px;
-//   //right: 20px;
-//   background-color: #000000;
-//   border-radius: var(--border-radius);
-//   padding: 10px 20px;
-//   width: 150px;
-//   font-size: 16px;
-
-  
-  
-// }
 
 .dropdown-menu{
   position: absolute;
-  // top: calc(75%);
-  // right: 150px;
   z-index: 30;
-  padding: 10px;
   background-color: #fff;
   border-radius: 5px;
-  // text-align: center;
-  //padding: 10px, 20px;
-  background-color: hsl(0, 0%, 11%);
+  margin-top: 1.1%;
+  background-color: rgb(84, 82, 82);
   color: white;
-  width: 170px;
+  width: 150px;
   height: auto;
   
-  // overflow-y: auto;
-  // scrollbar-width: thin;
-  // scrollbar-color: hsl(0, 0%, 11%);
+  
   ul {
     li {
       display: flex;
-      //padding: 10px;
-      padding: 5px;
-      border-top: 1px solid rgba(0, 0, 0, 0.05);
       font-size: 16px;
+      
   
       a {
         text-decoration: none;
-  
+        background-color: rgb(84, 82, 82);
+        margin: 1%
+
+        
         
       }
   
