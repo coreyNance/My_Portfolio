@@ -23,6 +23,12 @@ const Navigation = () => {
 
       <Fragment>
       <nav>
+      <div className='homeLink-container'>
+      <Link className='homeLink'to ='/'> 
+      <h2>Home</h2>
+      </Link>
+      </div> 
+           
         <ul >
             <h2 className='nav-links-container'>
                 <li><a href = "#aboutMe">About Me</a></li>

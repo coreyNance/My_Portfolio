@@ -2,9 +2,36 @@
   
   nav {
     padding-bottom: 0.5%;
+    padding-left: 2%;
     // border-bottom: 5px solid rgb(31, 30, 30);
     align-items: center;
     text-align: right;
+
+
+    .homeLink-container {
+      width: 50%;
+      float:left;
+      height: auto;
+      left: 50px;
+
+    }
+
+    .homeLink {
+    
+      // border-bottom: 5px solid rgb(31, 30, 30);
+      align-items: center;
+      text-align: left;
+      text-decoration: none;
+      color: white;
+      
+  
+    }
+
+    .nav-links-container {
+
+      width: 50%;
+      float: right;
+    }
 
     ul {
         li {
@@ -103,6 +130,8 @@
     transition: var(--speed);
   }
   
+
+
   
   
   
