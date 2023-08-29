@@ -22,6 +22,7 @@ import DropdownItem from '../../components/dropdown-item/dropdown-item.component
 function LandingPage() {
 
   const [open, setOpen] = useState(false);
+  const [contactOpen, setContactOpen] = useState(false);
 
   
 
@@ -32,7 +33,7 @@ function LandingPage() {
           
           <h1>Corey Nance </h1>
           <h2>Software Engineer</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>A results-driven Software Engineer with a strong technical skillset that is excited about software development and its various challenges . Willing to take on any challenge and staying on top of industry trends with the ability to work collaboratively or independently. 
           </p>
           
           <ul className='pageInfoLinks'>
@@ -44,14 +45,14 @@ function LandingPage() {
                         <ul>
                           <li><DropdownItem text = {"JavaScript"} to ={"/project/JavaScript"}/></li>
                           <li><DropdownItem text = {"C++"} to ={"/project/CPP"}/></li>
-                          <li><DropdownItem text = {"Embedded C"}/></li>
-                          <li><DropdownItem text = {"React"}/></li>
-                          <li><DropdownItem text = {"Java"}/></li>
-                          <li><DropdownItem text = {"Python"}/></li>
+                          {/* <li><DropdownItem text = {"Embedded C"}/></li> */}
+                          {/* <li><DropdownItem text = {"React"}/></li> */}
+                          {/* <li><DropdownItem text = {"Java"}/></li> */}
+                          {/* <li><DropdownItem text = {"Python"}/></li> */}
                         </ul>
                       </div>
               </li>
-                  <li><a href = "../../Assets/Resume.pdf" download = "Resume.pdf">Resume</a></li>
+                  <li><a href = {resume} target = "_blank">Resume</a></li>
             </h2>
         </ul>
             
@@ -60,8 +61,19 @@ function LandingPage() {
         <div >
         <ul className='pageImgLinks'>
             <h2>
-                <li><a href = "#aboutMe">About Me</a></li>
-                <li><a href = "#contactMe">Contact Me</a></li>
+                {/* <li><a href = "#aboutMe">About Me</a></li> */}
+                <li className='menu-container' /*ref ={menuRef}*/>
+                  <a className='menu-trigger' onClick={() =>{setContactOpen(!contactOpen)}}>Contact Me</a>
+
+                      <div className={`contactDropdown-menu ${contactOpen? 'active': 'inactive'}`}>
+                        <ul>
+                          <li>781-426-1186</li>
+                          <li><a href= "mailto:coreynance83@gmail.com">coreynance83@gmail.com</a></li>
+                          <li><a href = "https://github.com/coreyNance" target = "_blank">github</a></li>
+                          <li><a href = "https://www.linkedin.com/in/corey-nance-87139841/" target = "_blank">Linkedin</a></li>
+                        </ul>
+                      </div>
+              </li>
               
             </h2>
         </ul>
