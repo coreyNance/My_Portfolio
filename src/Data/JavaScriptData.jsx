@@ -3,7 +3,7 @@ const javaScriptProjects =
     {
       "id": 1,
       "title": "Car Enthusiast Quiz Application",
-      "imagePath": require('../../Assets/images/codeQuizBig.png'),
+      "imagePath": require('../Assets/images/codeQuizBig.png'),
       "projectClass": "ImageRightTextContainer",
       "projectType": 'JavaScript Project',
       "projectLink": "https://github.com/coreyNance/Car_Enthusiast_Quiz",
@@ -13,7 +13,7 @@ const javaScriptProjects =
     {
         "id": 2,
         "title": "Daily Planner Application",
-        "imagePath":require('../../Assets/images/DailyPlannerBig.png'),
+        "imagePath":require('../Assets/images/DailyPlannerBig.png'),
         "projectClass": "ImageLeftTextContainer",
         "projectType": 'JavaScript Project',
         "projectLink": "https://github.com/coreyNance/Daily_Planner",
@@ -22,7 +22,7 @@ const javaScriptProjects =
     {
       "id": 3,
       "title": "PWA_Budget_Tracker",
-      "imagePath":require('../../Assets/component_Images/PWA_Budget_Tracker.png'),
+      "imagePath":require('../Assets/component_Images/PWA_Budget_Tracker.png'),
       "projectClass": "ImageRightTextContainer",
       "projectType": 'JavaScript Project',
       "projectLink": "https://github.com/coreyNance/PWA_Budget_Tracker",
@@ -31,7 +31,7 @@ const javaScriptProjects =
   {
     "id": 4,
     "title": "Weather Application",
-    "imagePath":require('../../Assets/component_Images/WeatherAppBig.png'),
+    "imagePath":require('../Assets/component_Images/WeatherAppBig.png'),
     "projectClass": "ImageLeftTextContainer",
     "projectType": 'JavaScript Project',
     "projectLink": "https://github.com/coreyNance/WeatherApplication",
@@ -40,7 +40,7 @@ const javaScriptProjects =
 {
   "id": 5,
   "title": "README GENERATOR",
-  "imagePath":require('../../Assets/component_Images/ReadMe_Gen.png'),
+  "imagePath":require('../Assets/component_Images/ReadMe_Gen.png'),
   "projectClass": "ImageRightTextContainer",
   "projectType": 'JavaScript Project',
   "projectLink": "https://github.com/coreyNance/ReadME_Generator",

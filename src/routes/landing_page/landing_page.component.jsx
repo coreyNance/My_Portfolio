@@ -55,10 +55,13 @@ function LandingPage() {
                   <li><a href = {resume} target = "_blank">Resume</a></li>
             </h2>
         </ul>
-            
+        <a href = "https://github.com/coreyNance/My_Portfolio" target = "_blank" className= "repositoryLink">Portfolio Repository</a>
+
         </div>
         <div className = "myImage-container">
         <div >
+        <img className = "myFace" src={myPic} alt = "Picture of me."/>
+
         <ul className='pageImgLinks'>
             <h2>
                 {/* <li><a href = "#aboutMe">About Me</a></li> */}
@@ -78,7 +81,6 @@ function LandingPage() {
             </h2>
         </ul>
     </div>
-            <img className = "myFace" src={myPic} alt = "Picture of me."/>
         </div>
       
     </div>

@@ -3,15 +3,15 @@ import ProjectItem from '../project-item/project-item.component';
 import '../../components/project-item/project-item.styles.scss'
 
 
-const ProjectDirectory = ({javaScriptProjects}) => {
+const ProjectDirectory = ({Projects}) => {
     //const {title, imagePath, projectType, description} = javaScriptProject;
 
-    // console.log(javaScriptProjects);
+    console.log(Projects);
 
     return (
         <div>
 
-            {javaScriptProjects.map((project) =>(
+            {Projects.map((project) =>(
 
                 <ProjectItem key={project.id} project ={project}/>
 

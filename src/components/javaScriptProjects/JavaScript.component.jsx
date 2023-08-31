@@ -2,7 +2,7 @@ import {Outlet, Link} from 'react-router-dom';
 import './JavaScript.styles.scss';
 import testPic from '../../Assets/images/test_image.png';
 import dPlanner from '../../Assets/images/DailyPlannerBig.png';
-import javaScriptProjects from '../../Data/JavaScriptData/JavaScriptData';
+import javaScriptProjects from '../../Data/JavaScriptData';
 import Project from '../projectDirectory/projectDirectory.component';
 
 
@@ -19,7 +19,7 @@ const JavaScriptCom = ()  => {
               </center>
 
         
-              <Project javaScriptProjects = {javaScriptProjects}/>
+              <Project Projects = {javaScriptProjects}/>
 
 
          
