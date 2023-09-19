@@ -45,6 +45,7 @@ function LandingPage() {
                         <ul>
                           <li><DropdownItem text = {"JavaScript"} to ={"/project/JavaScript"}/></li>
                           <li><DropdownItem text = {"C++"} to ={"/project/CPP"}/></li>
+                          <li><DropdownItem text = {"Java"} to ={"/project/Java"}/></li>
                           {/* <li><DropdownItem text = {"Embedded C"}/></li> */}
                           {/* <li><DropdownItem text = {"React"}/></li> */}
                           {/* <li><DropdownItem text = {"Java"}/></li> */}

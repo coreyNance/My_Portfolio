@@ -9,6 +9,7 @@ import ProjectsPage from "./routes/projects_page/projects_page.component";
 import LandingPage from "./routes/landing_page/landing_page.component";
 import Navigation from "./routes/navigation/navigation.component";
 import JavaScriptCom from "./components/javaScriptProjects/JavaScript.component";
+import Java from "./components/javaProjects/java.component"
 import TestComponent from "./components/test/Test.component";
 import Cpp from './components/cPlusPlusProjects/cpp.component';
 
@@ -27,6 +28,7 @@ function App() {
         <Route index element={<ProjectsPage/>}/>
         <Route path='JavaScript' element={<JavaScriptCom/>}/>
         <Route path='CPP' element={<Cpp/>}/>
+        <Route path='Java' element={<Java/>}/>
       </Route>
     </Routes>
   );
