@@ -6,6 +6,7 @@ import {Document, Page, pdfjs} from 'react-pdf';
 import myPic from '../../Assets/component_Images/myImage.jpg';
 import resume from '../../utils/Resume.pdf'
 import DropdownItem from '../../components/dropdown-item/dropdown-item.component';
+import DropdownMenu from '../../components/dropdown-menu/dropdown-menu.component';
 
 
 
@@ -21,7 +22,7 @@ import DropdownItem from '../../components/dropdown-item/dropdown-item.component
 
 function LandingPage() {
 
-  const [open, setOpen] = useState(false);
+  // const [open, setOpen] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
 
   
@@ -38,21 +39,7 @@ function LandingPage() {
           
           <ul className='pageInfoLinks'>
             <h2>
-              <li className='menu-container' /*ref ={menuRef}*/>
-                  <a className='menu-trigger' onClick={() =>{setOpen(!open)}}>Projects</a>
-
-                      <div className={`dropdown-menu ${open? 'active': 'inactive'}`}>
-                        <ul>
-                          <li><DropdownItem text = {"JavaScript"} to ={"/project/JavaScript"}/></li>
-                          <li><DropdownItem text = {"C++"} to ={"/project/CPP"}/></li>
-                          <li><DropdownItem text = {"Java"} to ={"/project/Java"}/></li>
-                          {/* <li><DropdownItem text = {"Embedded C"}/></li> */}
-                          {/* <li><DropdownItem text = {"React"}/></li> */}
-                          {/* <li><DropdownItem text = {"Java"}/></li> */}
-                          {/* <li><DropdownItem text = {"Python"}/></li> */}
-                        </ul>
-                      </div>
-              </li>
+              <DropdownMenu/>
                   <li><a href = {resume} target = "_blank">Resume</a></li>
             </h2>
         </ul>
@@ -89,3 +76,18 @@ function LandingPage() {
 }
 
 export default LandingPage;
+
+
+
+
+// <div className={`dropdown-menu ${open? 'active': 'inactive'}`}>
+//                         <ul>
+//                           <li><DropdownItem text = {"JavaScript"} to ={"/project/JavaScript"}/></li>
+//                           <li><DropdownItem text = {"C++"} to ={"/project/CPP"}/></li>
+//                           <li><DropdownItem text = {"Java"} to ={"/project/Java"}/></li>
+//                           {/* <li><DropdownItem text = {"Embedded C"}/></li> */}
+//                           {/* <li><DropdownItem text = {"React"}/></li> */}
+//                           {/* <li><DropdownItem text = {"Java"}/></li> */}
+//                           {/* <li><DropdownItem text = {"Python"}/></li> */}
+//                         </ul>
+//                       </div>
