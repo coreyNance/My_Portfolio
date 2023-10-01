@@ -1,25 +1,14 @@
-// * {
-//   box-sizing: border-box;
-//   margin: 0;
-// }
-
 body {
-margin: 0;
- font-family: Arial;
- font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  margin: 0;
+  font-family: Arial;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- background-image: linear-gradient(to bottom left, rgb(51, 50, 50), rgb(247, 247, 247));
-//  height: 100%;
-// margin: 0;
-// background-repeat: no-repeat;
-background-attachment: fixed;
-// background-size: cover;
-// background-position: center;
-// width: 100%;
-// height: 100%;
+  background-image: linear-gradient(to bottom left, rgb(51, 50, 50), rgb(247, 247, 247));
+  background-attachment: fixed;
+  
 }
 
 code {
@@ -29,120 +18,162 @@ code {
 
 .main-container {
   justify-content: space-around;
-  //border: 1px solid black;
   display: flex;
-  height: 300px;
+  flex-direction: row;
+  min-height: 800px;
   padding: 20px;
-  margin: 20px;
+  // margin: 20px;
+  overflow: hidden;
+
+  // @media only screen and (max-width: 750px) {
+
+  //   height: 300px;
+
+
+    
+  // }
   
 }
 
-.myImage-container {
+ .myImage-container {
 
   width: 50%;
-  //border: 1px solid rgb(219, 18, 18);
-
-
 
   .myFace{
-    position: absolute;
-    top: 10%;
-    right: 8%;
-    height: 55%;
-    width: 27%;
+    position: relative;
+    top: 50px;
+    margin: auto;
+    // display: flex;
+    left: 20%;
+    height: 500px;
+    width: 500px;
     border-radius: 50%;
+
+    @media only screen and (max-width: 750px) {
+
+      position: relative;
+      top: 175px;
+      height: 150px;
+      width: 150px;
+      left: 10%;
+      // padding-left: 50px;
+      border-radius: 50%;
+
+      
+    }
   }
 
 }
+
 
 .repositoryLink {
   position: relative;
   text-decoration: none;
-  color: white;
+  color: hsl(207 11.1% 85.9%);
   background-color: rgb(84, 82, 82);
   padding:.5% 1% 1% 1%;
   border-radius: 10%;
-  top: 15%;
-  left: 20%;
-  @media only screen and (min-width: 1500px) {
-    left: 15%;
+  //top: 15%;
+  // left: 18%;
+  font-size: 20px;
+
+  &:hover {
+    color: hsl(206 30% 98.8%);
   }
 
-}
-
-
-.pageInfoLinks {
-  position: relative;
   
-  top: 10%;
-
-  
-  
-  
-
-  
-      li {
-  display: inline;
-  padding: 3%;
-
-  a {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(84, 82, 82);
-    padding:.5% 1% 1% 1%;
-    border-radius: 10%;
+  @media only screen and (min-width: 1500px) {
+    left: 17%;
+  }
+  @media only screen and (max-width: 750px) {
+    position: relative;
+    bottom: 25px;
+    left: 40%;
+    font-size: 15px;
+    width: 100px;
 
 
     
   }
 
-  a:hover {
-    text-decoration: underline;
+}
+
+.pageInfoLinks {
+  position: relative;
+  
+  top: 10%;
+  left: 7.5%;
+
+  
+
+  li {
+    display: inline;
+    padding: 1%;
+    
+    a {
+      text-decoration: none;
+      color: hsl(207 11.1% 85.9%);
+      background-color: rgb(84, 82, 82);
+      padding:.5% 1% 1% 1%;
+      border-radius: 10%;
+    
+    }
+
+    a:hover {
+      cursor: pointer;
+      color: hsl(206 30% 98.8%);
+    }
+
   }
 
-}
+
 
 }
 
 
 
 .pageImgLinks {
-  position: absolute;
-  bottom: 30%;
-  right: 13%;
-  width: 15%;
-
-
-
+  position: relative;
+  top: 50px;
+  left: 38%;
+  width: 25%;
   
-      li {
-  display: inline;
-  padding: 3%;
+  li {
+    display: inline;
+    padding: 3%;
+    
+    a {
+      text-decoration: none;
+      color: hsl(207 11.1% 85.9%);
+    }
 
-  a {
-  
-    text-decoration: none;
-    color: white;
+    a:hover {
+      cursor: pointer;
+      color: hsl(206 30% 98.8%);
+    }
+
+  }
+
+  @media only screen and (max-width: 750px) {
+
+    position: relative;
+    top: -10px;
+    padding-left: 50px;
+    font-size: 12px;
+    left: -10%;
+    width:auto;
+
 
     
   }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-}
   
 
-
 }
-
-
 
 
 .myInfo-container {
   position: relative;;
-  top: 200px;
+  top: 250px;
   padding-left: 200px;
   text-align: left;
   font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -161,13 +192,40 @@ code {
     }
 
     a:hover {
-      text-decoration: underline;
+      // text-decoration: underline;
+      color: hsl(206 30% 98.8%);
     }
 
-}
+  }
 
-  //font-size: 5rem;
-  // line-height: 10;
+  @media only screen and (max-width: 750px) {
+
+    position: relative;
+    top: 80px;
+    padding-left: 1px;
+
+    .myName {
+      font-size: 25px;
+    
+    }
+    
+    .myTitle {
+      font-size: 18px;
+    }
+
+    ul {
+      top: 30px;
+      left: 18%;
+    }
+
+    li {
+      font-size: 16px;
+     
+    }
+
+    
+  }
+
 }
 
 
@@ -187,98 +245,6 @@ h3 span{
   font-weight: 400;
 }
 
-
-
-// --------------------------------------------------------------------------------------------------------------------
-
-.dropdown-menu{
-  position: absolute;
-  z-index: 30;
-  background-color: #fff;
-  border-radius: 5px;
-  margin-top: 1.1%;
-  background-color: rgb(84, 82, 82);
-  color: white;
-  width: 150px;
-  height: auto;
-  
-  
-  ul {
-    li {
-      display: flex;
-      font-size: 16px;
-      
-  
-      a {
-        text-decoration: none;
-        background-color: rgb(84, 82, 82);
-        margin: 1%;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        text-align: center;
-
-        
-        
-      }
-  
-      a:hover {
-        text-decoration: underline;
-      }
-  
-  }
-  }
-}
-
-.dropdown-menu::before{
-  content: '';
-  position: absolute;
-  top: -5px;
-  right: 20px;
-  height: 20px;
-  background: var(--secondary-bg);
-  transform: rotate(45deg);
-}
-
-.dropdown-menu.active {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-  transition: var(--speed) ease;
-}
-
-.dropdown-menu.inactive {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: var(--speed) ease;
-}
-
-
-
-// .dropdown-menu ul li{
-//   padding: 10px 0;
-//   border-top: 1px solid rgba(0, 0, 0, 0.05);
-
-
-// }
-
-.dropdown-menu ul li:hover {
-  opacity: .5;
-  cursor: pointer;
-}
-
-//.dropdownItem {
-  //display: flex;
-  //margin: 10px auto;
-
-//}
-
-.dropdownItem img {
-  max-width: 20px;
-  margin-right: 10px;
-  opacity: 0.5;
-  transition: var(--speed);
-}
 
 
 
@@ -349,16 +315,11 @@ h3 span{
 
 
 
-// .dropdown-menu ul li{
-//   padding: 10px 0;
-//   border-top: 1px solid rgba(0, 0, 0, 0.05);
 
-
-// }
 
 .contactDropdown-menu ul li:hover {
   opacity: .5;
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 //.dropdownItem {

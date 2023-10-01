@@ -11,6 +11,7 @@ import Navigation from "./routes/navigation/navigation.component";
 import JavaScriptCom from "./components/javaScriptProjects/JavaScript.component";
 import Java from "./components/javaProjects/java.component"
 import TestComponent from "./components/test/Test.component";
+import Work from './components/generalProjects/generalProjects.component';
 import Cpp from './components/cPlusPlusProjects/cpp.component';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='JavaScript' element={<JavaScriptCom/>}/>
         <Route path='CPP' element={<Cpp/>}/>
         <Route path='Java' element={<Java/>}/>
+        <Route path='Work' element={<Work/>}/>
       </Route>
     </Routes>
   );

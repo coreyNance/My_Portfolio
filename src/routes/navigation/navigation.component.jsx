@@ -7,7 +7,6 @@ import resume from '../../utils/Resume.pdf'
 import DropdownItem from '../../components/dropdown-item/dropdown-item.component';
 
 import './navigation.styles.scss'
-import DropdownMenu from '../../components/dropdown-menu/dropdown-menu.component';
 
 
 

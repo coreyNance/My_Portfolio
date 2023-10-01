@@ -29,29 +29,31 @@ function LandingPage() {
 
 
   return (
-    <div className='main-container'>
+  
+  <div className='main-container'>
         <div className='myInfo-container'>
           
-          <h1>Corey Nance </h1>
-          <h2>Software Engineer</h2>
-          <p>A results-driven Software Engineer with a strong technical skillset that is excited about software development and its various challenges . Willing to take on any challenge and staying on top of industry trends with the ability to work collaboratively or independently. 
+          <h1 className='myName'>Corey Nance </h1>
+          <h2 className='myTitle'>Software Engineer</h2>
+          <p className='myDescription'>A results-driven Software Engineer with a strong technical skillset that is excited about software development and its various challenges . Willing to take on any challenge and staying on top of industry trends with the ability to work collaboratively or independently. 
           </p>
           
           <ul className='pageInfoLinks'>
             <h2>
-              <DropdownMenu/>
-                  <li><a href = {resume} target = "_blank">Resume</a></li>
+              <li><DropdownMenu/></li>
+              <li><a href = {resume} target = "_blank">Resume</a></li>
             </h2>
-        </ul>
-        <a href = "https://github.com/coreyNance/My_Portfolio" target = "_blank" className= "repositoryLink">Portfolio Repository</a>
+          </ul>
+          <a href = "https://github.com/coreyNance/My_Portfolio" target = "_blank" className= "repositoryLink">Portfolio Repository</a>
 
         </div>
-        <div className = "myImage-container">
-        <div >
-        <img className = "myFace" src={myPic} alt = "Picture of me."/>
 
-        <ul className='pageImgLinks'>
-            <h2>
+        <div className = "myImage-container">
+          <div >
+            <img className = "myFace" src={myPic} alt = "Picture of me."/>
+            
+            <ul className='pageImgLinks'>
+              <h2>
                 {/* <li><a href = "#aboutMe">About Me</a></li> */}
                 <li className='menu-container' /*ref ={menuRef}*/>
                   <a className='menu-trigger' onClick={() =>{setContactOpen(!contactOpen)}}>Contact Me</a>
@@ -64,14 +66,13 @@ function LandingPage() {
                           <li><a href = "https://www.linkedin.com/in/corey-nance-87139841/" target = "_blank">Linkedin</a></li>
                         </ul>
                       </div>
-              </li>
-              
-            </h2>
-        </ul>
-    </div>
+                  </li>
+              </h2>
+            </ul>
+          </div>
         </div>
       
-    </div>
+  </div>
   );
 }
 

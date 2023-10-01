@@ -1,11 +1,12 @@
 import {Outlet, Link} from 'react-router-dom';
+import "../dropdown-item/dropdown-item.styles.scss"
 
 
 function DropdownItem(props) {
 
     return(
-         <Link className="dropdownItem" to = {props.to}>
-            {props.text}
+         <Link to = {props.to}>
+            <span className='dropdownItem'>{props.text}</span>
         </Link>
 
 
