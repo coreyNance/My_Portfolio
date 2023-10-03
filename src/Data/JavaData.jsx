@@ -3,20 +3,26 @@ const javaProjects =
     {
       "id": 1,
       "title": "Contact Service Project",
-      "imagePath": require('../components/javaProjects/java_comp_images/ContactService Image.png'),
-      "projectClass": "ImageRightTextContainer",
+      "imagePath": require('../components/Project-Components/javaProjects/java_comp_images/ContactService Image.png'),
+      "imageStyle": "javaProjectImage",
+      "imageContainer": 'javaImageContainer',
+      "projectClass": "javaImageRightTextContainer",
       "projectType": 'Java Project',
       "projectLink": "https://github.com/coreyNance/CS320_Portfolio",
+      "textContainer": 'javaTextContainer',
       "description": '	This project utilizes the Java language and JUnit testing to test the Contact Class, Appointment Class, and Task Class based on the requirements.  The testing approach is to set up each test to reflect both sides of the requirement parameters, successful actions and when it fails. Through this project, the student is able to learn how JUnit testing works and when/how to use it.'
     },
     {
-        "id": 2,
-        "title": "The Gaming Room Project",
-        "imagePath":require('../components/javaProjects/java_comp_images/The_Gamingroom_image.png'),
-        "projectClass": "ImageLeftTextContainer",
-        "projectType": 'Java Project',
-        "projectLink": "https://github.com/coreyNance/The_Gaming_Room_Project/tree/main",
-        "description": 'The Gaming Room Project makes use of the Java language to create a game service.  This project utilizes Java classes to hold player, team, and game data while utilizing a separated file structure to have each class in its own file as well as a separate controller file.  This project also takes advantage of object oriented programming when creating a singleton tester that makes sure each game instance is unique.'
+      "id": 2,
+      "title": "The Gaming Room Project",
+      "imageStyle": "javaProjectImage",
+      "imageContainer": 'javaImageContainer',
+      "imagePath":require('../components/Project-Components/javaProjects/java_comp_images/The_Gamingroom_image.png'),
+      "projectClass": "javaImageLeftTextContainer",
+      "projectType": 'Java Project',
+      "projectLink": "https://github.com/coreyNance/The_Gaming_Room_Project/tree/main",
+      "textContainer": 'javaTextContainer',
+      "description": 'The Gaming Room Project makes use of the Java language to create a game service.  This project utilizes Java classes to hold player, team, and game data while utilizing a separated file structure to have each class in its own file as well as a separate controller file.  This project also takes advantage of object oriented programming when creating a singleton tester that makes sure each game instance is unique.'
     },
     /*{
       "id": 3,

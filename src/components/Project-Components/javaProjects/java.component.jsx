@@ -1,7 +1,6 @@
-import {Outlet, Link} from 'react-router-dom';
-// import './JavaScript.styles.scss';
-import javaProjects from '../../Data/JavaData';
-import Project from '../projectDirectory/projectDirectory.component';
+import './Java.styles.scss';
+import javaProjects from '../../../Data/JavaData';
+import Project from '../../projectDirectory/projectDirectory.component';
 
 
 const JavaCom = ()  => {
@@ -10,7 +9,7 @@ const JavaCom = ()  => {
     
 
     return(
-         <div className='mainJavaScriptContainer'>
+         <div className='mainJavaContainer'>
               <center>
                 <h1>Java Projects</h1>
                 <h3>Project links will take you to github repository.</h3>  

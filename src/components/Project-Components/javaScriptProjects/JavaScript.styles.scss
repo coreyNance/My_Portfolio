@@ -1,0 +1,113 @@
+
+.mainJavaScriptContainer {
+  justify-content: space-around;
+  // border: 1px solid black;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.javaScriptProjectImage {
+
+  height: 100%;
+  width: 50%;
+  // height: 100px;
+  // width: 100px;
+}
+
+
+  .javaScriptTextContainer{
+    // top: 10%;
+    // right: 8%;
+    height: 90%;
+    width: 50%;
+    margin: 5px;
+    // border: 1px solid rgb(177, 112, 28);
+    // border-radius: 50%;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 1%;
+
+    h2 {
+      padding-bottom: 1%;
+    }
+
+  }
+
+
+  .javaScriptImageContainer {
+    // top: 10%;
+    // right: 8%;
+    height: 90%;
+    width: 50%;
+    margin: 5px;
+    // border: 1px solid rgb(177, 112, 28);
+    // border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+  
+
+  }
+
+
+  .javaScriptImageRightTextContainer {
+    position: relative;
+    display: flex;
+    flex-direction:row-reverse;
+    text-align: left;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;;
+    width: 100%;
+    height: 40%;
+    border: 1px solid rgb(107, 107, 107);
+    text-align: left;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+  
+    &:hover {
+      // cursor: pointer;
+      opacity: 20;
+      transform: scale(1.01);
+      background-color: rgb(157, 156, 156);
+  
+  
+    }
+  
+  
+  }
+
+  .javaScriptImageLeftTextContainer {
+    position: relative;
+    display: flex;
+    text-align: left;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;;
+    width: 100%;
+    height: 40%;
+    border: 1px solid rgb(107, 107, 107);
+    text-align: left;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    padding-left: 1%;
+    padding-right: 1%;
+  
+    &:hover {
+      // cursor: pointer;
+      opacity: 20;
+      transform: scale(1.01);
+      background-color: rgb(157, 156, 156);
+
+  
+    }
+  
+  
+  }
+
+

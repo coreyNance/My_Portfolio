@@ -1,9 +1,9 @@
 import React from 'react';
-import './projects_page.styles.scss';
-import JavaScriptCom from '../../components/javaScriptProjects/JavaScript.component';
+// import './projects_page.styles.scss';
+// import JavaScriptCom from '../../components/javaScriptProjects/JavaScript.component';
 //import myPic from '../component_Images/myImage.jpg';
 import myPic from '../../Assets/component_Images/myImage.jpg';
-import TestComponent from '../../components/test/Test.component';
+// import TestComponent from '../../components/test/Test.component';
 
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
@@ -27,14 +27,14 @@ console.log(props.text);
 // )
   
 
-  switch(props.text) {
-    case 'Test':
-      return <TestComponent/>;
-    case 'JavaScript':
-      return <JavaScriptCom/>;
-    default:
-      return <div><h1>Something is going wrong</h1></div>;
-  }
+  // switch(props.text) {
+  //   case 'Test':
+  //     return <TestComponent/>;
+  //   case 'JavaScript':
+  //     return <JavaScriptCom/>;
+  //   default:
+  //     return <div><h1>Something is going wrong</h1></div>;
+  // }
 
 
 
