@@ -10,7 +10,7 @@ const GeneralCom = ()  => {
     
 
     return(
-         <div className='ProjectContainer'>
+         <div className='mainGeneralContainer'>
               <center>
                 <h1>Various work assignments</h1>
                
