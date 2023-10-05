@@ -8,7 +8,7 @@ const InternProjects =
       "imageContainer": 'generalImageContainer',
       "projectClass": "generalImageRightTextContainer",
       "projectType": 'C++ Project',
-      "projectLink": "https://github.com/coreyNance/CS-410-Software-Reverse-Engineering-",
+      "projectLink": "/project/AccessMenuProject",
       "textContainer": 'generalTextContainer',
       "description": 'The objective of this assignment was to create an accessibility similar to the WordPress plug in.  To achieve this goal, react hooks, useState and useContext were used along with dynamic stylesheet manipulation.  '
     },

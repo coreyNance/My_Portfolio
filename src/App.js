@@ -6,6 +6,7 @@ import JavaScript from "./components/Project-Components/javaScriptProjects/JavaS
 import Java from "./components/Project-Components/javaProjects/java.component";
 import Work from './components/Project-Components/generalProjects/generalProjects.component';
 import Cpp from './components/Project-Components/cPlusPlusProjects/cpp.component';
+import AccessMenuDescription from "./components/Project-Components/generalProjects/project_tools/access_menu.component";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='CPP' element={<Cpp/>}/>
         <Route path='Java' element={<Java/>}/>
         <Route path='Work' element={<Work/>}/>
+        <Route path='AccessMenuProject' element={<AccessMenuDescription/>}/>
       </Route>
     </Routes>
   );

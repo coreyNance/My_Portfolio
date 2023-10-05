@@ -1,3 +1,6 @@
+import {Outlet, Link} from 'react-router-dom';
+
+
 
 const Project = ({project}) => {
     const {title, imagePath, imageStyle,
@@ -8,7 +11,7 @@ const Project = ({project}) => {
 
     return (
         
-       <a href = {projectLink} target = "_blank" className= {projectClass}>
+       <Link to = {projectLink} target = "_blank" className= {projectClass}>
                 <div className= {imageContainer}>
                 <img className = {imageStyle} src={imagePath} alt = {projectType}/>
 
@@ -18,7 +21,7 @@ const Project = ({project}) => {
                     <p>{description}</p>
                 </div>
 
-            </a> 
+            </Link> 
     
     )
 
