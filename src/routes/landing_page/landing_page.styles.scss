@@ -82,8 +82,11 @@ code {
   }
 
   
-  @media only screen and (min-width: 1500px) {
+  @media only screen  and (min-width: 1500px) {
     left: 17%;
+  }
+  @media only screen and (max-width: 1400px ) and (min-width: 751px) {
+    left: 21%;
   }
   @media only screen and (max-width: 750px) {
     position: relative;
@@ -161,7 +164,7 @@ code {
     padding-left: 50px;
     font-size: 12px;
     left: -10%;
-    width:auto;
+    width: auto;
 
 
     
