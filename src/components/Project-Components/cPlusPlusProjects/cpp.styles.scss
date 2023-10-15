@@ -1,6 +1,5 @@
 .mainCppContainer {
   justify-content: space-around;
-  // border: 1px solid black;
   height: auto;
   padding: 20px;
   margin: 20px;
@@ -11,19 +10,13 @@
 
   height: 100%;
   width: 50%;
-  // height: 100px;
-  // width: 100px;
 }
 
 
   .cppTextContainer{
-    // top: 10%;
-    // right: 8%;
     height: 90%;
     width: 50%;
     margin: 5px;
-    // border: 1px solid rgb(177, 112, 28);
-    // border-radius: 50%;
     font-size: 16px;
     text-align: left;
     padding-top: 1%;
@@ -36,13 +29,9 @@
 
 
   .cppImageContainer {
-    // top: 10%;
-    // right: 8%;
     height: 90%;
     width: 50%;
     margin: 5px;
-    // border: 1px solid rgb(177, 112, 28);
-    // border-radius: 50%;
     font-size: 10px;
     text-align: center;
   
@@ -69,7 +58,7 @@
     padding-right: 1%;
   
     &:hover {
-      // cursor: pointer;
+      cursor: pointer;
       opacity: 20;
       transform: scale(1.01);
       background-color: rgb(157, 156, 156);
@@ -98,7 +87,7 @@
     padding-right: 1%;
   
     &:hover {
-      // cursor: pointer;
+      cursor: pointer;
       opacity: 20;
       transform: scale(1.01);
       background-color: rgb(157, 156, 156);

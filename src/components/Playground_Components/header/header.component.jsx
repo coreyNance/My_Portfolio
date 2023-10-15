@@ -1,7 +1,5 @@
 import './header.styles.scss'
-
-
-import React, {useState, useEffect, useRef, useContext} from 'react';
+import React from 'react';
 
 
 

@@ -1,4 +1,3 @@
-import {Outlet, Link} from 'react-router-dom';
 import './cpp.styles.scss';
 import Project from '../../projectDirectory/projectDirectory.component';
 import cPlusPlusProjects from '../../../Data/cPlusPlusData';

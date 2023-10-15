@@ -1,21 +1,16 @@
 .project_dropdownItem {
     display: flex;
-    // width: 100%;
     outline: none;
     border: none;
     padding: 0 10px;
-    // margin: 3%;
     background: none;
     text-decoration: none;         //                 code change
     color: hsl(207 11.1% 85.9%);
-    //height: 35px;
     font-size: var(--fontSize_medium);  // font size is 16px
-    // white-space: nowrap;
     overflow-y: auto;
 
     &:hover {
-      // cursor: pointer;
-      // background-color: hsla(259, 70%, 54%, 50%);
+      cursor: pointer;
       color: hsl(206 30% 98.8%);
       border-radius: 5px;
     }

@@ -1,4 +1,3 @@
-// import './category-item.styles.scss'
 import './footer.styles.scss'
 
 
