@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_Portfolio/static/css/main.272431ae.css",
-    "main.js": "/My_Portfolio/static/js/main.352045d4.js",
+    "main.css": "/My_Portfolio/static/css/main.4046d352.css",
+    "main.js": "/My_Portfolio/static/js/main.d5a24d42.js",
     "static/js/787.a2cb61a6.chunk.js": "/My_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/codeQuizBig.png": "/My_Portfolio/static/media/codeQuizBig.cec55833d4db4ce7cc39.png",
     "static/media/The_Gamingroom_image.png": "/My_Portfolio/static/media/The_Gamingroom_image.95e23cc030333f565ed6.png",
@@ -12,18 +12,18 @@
     "static/media/AirGead_banking.png": "/My_Portfolio/static/media/AirGead_banking.6f45db10e37623299de5.png",
     "static/media/DailyPlannerBig.png": "/My_Portfolio/static/media/DailyPlannerBig.39db0d68144a81c5c8cc.png",
     "static/media/Hash_Table.png": "/My_Portfolio/static/media/Hash_Table.49fb8794a7f547ee27db.png",
-    "static/media/Resume.pdf": "/My_Portfolio/static/media/Resume.9b98741df64ba3926444.pdf",
+    "static/media/Resume.pdf": "/My_Portfolio/static/media/Resume.800e39e5fc48b180e7d5.pdf",
     "static/media/Geaux Access menu image.png": "/My_Portfolio/static/media/Geaux Access menu image.b4be2a04bc46ffc0b5ad.png",
     "static/media/myImage.jpg": "/My_Portfolio/static/media/myImage.e229acbc75fcdec10aa5.jpg",
     "static/media/WeatherApp.png": "/My_Portfolio/static/media/WeatherApp.58ba5624b3b005ca9c64.png",
     "static/media/ReadMe_Gen.png": "/My_Portfolio/static/media/ReadMe_Gen.3164d29c1d85e4f2f8df.png",
     "index.html": "/My_Portfolio/index.html",
-    "main.272431ae.css.map": "/My_Portfolio/static/css/main.272431ae.css.map",
-    "main.352045d4.js.map": "/My_Portfolio/static/js/main.352045d4.js.map",
+    "main.4046d352.css.map": "/My_Portfolio/static/css/main.4046d352.css.map",
+    "main.d5a24d42.js.map": "/My_Portfolio/static/js/main.d5a24d42.js.map",
     "787.a2cb61a6.chunk.js.map": "/My_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.272431ae.css",
-    "static/js/main.352045d4.js"
+    "static/css/main.4046d352.css",
+    "static/js/main.d5a24d42.js"
   ]
 }
