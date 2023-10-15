@@ -6,7 +6,7 @@ function DropdownItem(props) {
 
     return(
          <Link to = {props.to}>
-            <span className='dropdownItem'>{props.text}</span>
+            <span className='project_dropdownItem'>{props.text}</span>
         </Link>
 
 

@@ -1,17 +1,17 @@
-.dropdownItem {
+.project_dropdownItem {
     display: flex;
     // width: 100%;
     outline: none;
     border: none;
     padding: 0 10px;
-    margin: 3%;
+    // margin: 3%;
     background: none;
     text-decoration: none;         //                 code change
-    user-select: none;
     color: hsl(207 11.1% 85.9%);
     //height: 35px;
-    font-size: 16px; //16px                               code change
-    white-space: nowrap;
+    font-size: var(--fontSize_medium);  // font size is 16px
+    // white-space: nowrap;
+    overflow-y: auto;
 
     &:hover {
       // cursor: pointer;

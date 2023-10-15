@@ -1,0 +1,22 @@
+
+
+
+
+.features_button {
+  text-decoration: var(--text-decoration-line);
+    color: hsl(207 11.1% 85.9%);
+    background-color: rgb(84, 82, 82);
+    // background: none;
+    border: none;
+    // padding: 0 10px;
+    height: 35px;
+    font-size: var(--fontSize_medium);
+    margin: 5px 0 5px;
+    border-radius: 10%;
+
+    &:hover {
+      cursor: pointer;
+      color: hsl(206 30% 98.8%);
+    }
+    
+}

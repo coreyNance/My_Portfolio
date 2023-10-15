@@ -1,0 +1,92 @@
+ 
+ :root {
+
+  --fontSize_xSmall: 12px;
+  --fontSize_small: 14px;
+  --fontSize_medium: 16px;
+  --fontSize_large: 20px;
+  --fontSize_xLarge: 28px;
+  --fontSize_xxLarge: 40px;
+
+  --text-decoration-line: none;
+  --grayScale_Value: 0;                    //code change
+
+
+}
+ 
+ 
+ 
+ 
+ .playgroundDropdown-menu{
+    position: absolute;
+    z-index: 30;
+    // background-color: #fff;
+    border-radius: 5px;
+    background-color: rgb(84, 82, 82);
+    top: 100%;
+    // color: white;
+    width: auto;
+    height: auto;
+    // text-align: center;
+    color: white;
+    // width: 150px;
+    // max-width: 150px;
+    // overflow-y:scroll;
+    // scrollbar-width: thin;
+    // scrollbar-color: hsl(0, 0%, 11%);
+    font-size: var(--fontSize_medium);  // font size is 16px
+    padding: 0 2% 0;
+    right: 48%;
+    border: 1px solid black;
+    
+  }
+
+  
+  .playgroundDropdown-menu::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 20px;
+    height: 20px;
+    background: var(--secondary-bg);
+    transform: rotate(45deg);
+  }
+  
+  .playgroundDropdown-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+  }
+  
+  .playgroundDropdown-menu.inactive {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+  }
+
+
+.playgroundMenu-trigger {
+  position: relative;
+  top: 10%;
+  text-decoration: var(--text-decoration-line);
+  color: hsl(207 11.1% 85.9%);
+  background-color: rgb(84, 82, 82);
+  padding:1% 1% 1% 1%;
+  margin-top: 2%;
+  border-radius: 10%;
+  font-size: var(--fontSize_medium); // font size is 16px
+
+  
+  :hover {
+    cursor: pointer;
+    color: hsl(206 30% 98.8%);
+  }
+}
+      
+    
+    
+    
+    
+  

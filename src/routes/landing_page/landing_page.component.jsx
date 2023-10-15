@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useState, useEffect, useRef,} from 'react';
 import './landing_page.styles.scss';
 import {Outlet, Link} from 'react-router-dom';
 import {Document, Page, pdfjs} from 'react-pdf';
@@ -29,7 +29,7 @@ function LandingPage() {
           
           <ul className='pageInfoLinks'>
             <h2>
-              <li><DropdownMenu/></li>
+              <DropdownMenu/>
               <li><a href = {resume} target = "_blank">Resume</a></li>
             </h2>
           </ul>
