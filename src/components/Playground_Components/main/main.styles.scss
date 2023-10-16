@@ -8,4 +8,24 @@
     text-align: center;
     padding: 0 10% 0;
 
+
+    
+    @media only screen and (max-width: 750px) {
+      
+      font-size: var(--fontSize_medium);
+      top: 20%;
+      
+    }
+  
+    @media only screen and (max-width: 1400px ) and (min-width: 751px) {
+      
+    }
+  
+    @media only screen  and (min-width: 1500px) {
+      
+    }
+    
+  
+
+
   } 

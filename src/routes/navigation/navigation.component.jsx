@@ -32,7 +32,7 @@ const Navigation = () => {
       </div> 
            
         <ul >
-            <h2 className='nav-links-container'>
+            <div className='nav-links-container'>
                 {/* <li><a href = "#aboutMe">About Me</a></li> */}
                 <li className='menu-container' /*ref ={menuRef}*/>
                   <a className='menu-trigger' onClick={() =>{setOpen(!open)}}>Projects</a>
@@ -61,7 +61,7 @@ const Navigation = () => {
                       </div>
               </li>
                 <li><a href = {resume} target = "_blank">Resume</a></li>
-            </h2>
+            </div>
         </ul>
     </nav>
     <Outlet/>
